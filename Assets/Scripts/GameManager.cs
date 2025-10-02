@@ -11,6 +11,39 @@ public class GameManager : MonoBehaviour
     private bool isGamePaused = false;
     bool endGame = false;
     bool win = false;
+
+    public int redKey = 0;
+    public int greenKey = 0;
+    public int blueKey = 0;
+
+    public int points = 0;
+
+    public void FreezTime(int freez)
+    {
+        CancelInvoke("Stopper");
+        InvokeRepeating("Stopper",freez,1);
+    }
+
+    public void AddPoints(int point)
+    {
+        this.points += point;
+    }
+
+    public void AddTime(int addTime)
+    {
+        this.timeToEnd += addTime;
+    }
+
+    public void AddKey(KeyColor color)
+    {
+        if (color == KeyColor.Red)
+            redKey++;
+        else if (color == KeyColor.Green)
+            greenKey++;
+        else if (color == KeyColor.Blue)
+            blueKey++;
+
+    }
     void Start()
     {
         if (instance == null)

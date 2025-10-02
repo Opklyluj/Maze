@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -50,5 +49,13 @@ public class PlayerController : MonoBehaviour
 
         Vector3 move = transform.right * x + transform.forward * z + transform.up * y;
         characterController.Move(move* speed * Time.deltaTime);
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.collider.gameObject.tag == "Pickup")
+        {
+            hit.gameObject.GetComponent<Pickup>().Picked();
+        }
     }
 }
