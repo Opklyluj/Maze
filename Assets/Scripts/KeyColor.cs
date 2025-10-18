@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum KeyColor 
+public enum KeyColor
 {
-    Red,
-    Green,
-    Blue,
+   Red,
+   Blue,
+   Green
 }

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 90366d9e64481a2459fa39648b5749f1
+  productGUID: 85c998751a8e22448be0d77c0dea4e7d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Maze
+  productName: My project (4)
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -774,14 +774,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Maze
+  metroPackageName: My project (4)
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Maze
+  metroApplicationDescription: My project (4)
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -851,11 +851,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 67b43c77-9924-4a6f-98ca-e1b0b78def97
+  cloudProjectId: 6be23b1d-7a39-4c60-aaa3-217928ebfdbc
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Maze
-  organizationId: opklyluj
+  projectName: My project (4)
+  organizationId: opklyluj_unity
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

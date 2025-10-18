@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Pickup : MonoBehaviour
+public class PickUp : MonoBehaviour
 {
     public virtual void Picked()
     {
